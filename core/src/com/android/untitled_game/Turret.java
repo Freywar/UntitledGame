@@ -14,12 +14,6 @@ import com.badlogic.gdx.physics.box2d.Shape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.physics.box2d.joints.RevoluteJoint;
 import com.badlogic.gdx.physics.box2d.joints.RevoluteJointDef;
-echo "# UntitledGame" >> README.md
-        git init
-        git add README.md
-        git commit -m "first commit"
-        git remote add origin https://github.com/Freywar/UntitledGame.git
-        git push -u origin master
 
 public abstract class Turret extends GameObject {
     protected class TurretSettings {
